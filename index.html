@@ -4,19 +4,50 @@
   <title>Пример подключения плеера</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <style>
+    .js-video-container {
+      flex-grow: 1;
+    }
+    #player {
+      width: 800px;
+      height: 600px;
+      box-shadow: 0 0 20px rgba(0,0,0,1);
+      display: flex;
+      flex-direction: column;
+    }
+    .player-button {
+      cursor: pointer;
+      color: white;
+      background-color: transparent;
+      border-style: hidden;
+      
+    }
+    .fa {
+      margin: 2px;
+    }
+    .player-buttons {
+      flex-grow: 0;
+      background: black;
+    }
+
+  </style>
 </head>
 <body>
-  <div id="player" style="width: 800px; height: 600px;">
-    <div class="js-video-container" style="width: 100%; height: 100%"></div>
-    
-    <div style="background: black;">
-      <button style="border: none; cursor: pointer; color: white;"><i class="fa fa-play" aria-hidden="true"></i></button>
+  <div id="player">
+    <div class="js-video-container"></div>
+    <div class="player-buttons">
+      <button class="js-play-button player-button">
+        <i class="fa fa-play" aria-hidden="true"></i>
+      </button>
+      <button class="js-pause-button player-button"  >
+        <i class="fa fa-pause" aria-hidden="true"></i>
+      </button>
     </div>
-
-
-
-
+  </div>    
   </div>
+
+
+
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
   <script src="player.js"></script>

@@ -1,0 +1,31 @@
+
+.video-container {
+    flex-grow: 1;
+}
+#player {
+    width: 800px;
+    height: 600px;
+    box-shadow: 0 0 20px rgba(0,0,0,1);
+    display: flex;
+    flex-direction: column;
+}
+.player-button {
+    cursor: pointer;
+    color: white;
+    background-color: transparent;
+    border-style: hidden;
+    margin-right: 5px;
+    font-size: larger;
+}
+.player-button:focus {
+    background-color: rgba(110, 109, 109, 0.4);
+}
+.player-buttons {
+    flex-grow: 0;
+    background: black;
+    display: flex;
+    flex-direction: row;
+}
+.space {
+    flex-grow: 1;
+}

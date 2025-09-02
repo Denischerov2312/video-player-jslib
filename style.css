@@ -16,6 +16,8 @@
     border-style: hidden;
     margin-right: 5px;
     font-size: larger;
+    width: 30px;
+    height: 24px;
 }
 .player-button:focus {
     background-color: rgba(110, 109, 109, 0.4);

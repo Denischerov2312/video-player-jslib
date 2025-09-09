@@ -1,24 +1,37 @@
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .video-container {
     flex-grow: 1;
 }
 #player {
-    width: 800px;
-    height: 600px;
+    width: 727px;
+    height: 545px;
     box-shadow: 0 0 20px rgba(0,0,0,1);
     display: flex;
     flex-direction: column;
 }
+
+
 .player-button {
     cursor: pointer;
     color: white;
     background-color: transparent;
     border-style: hidden;
-    margin-right: 5px;
+    margin-right: 12px;
+
     font-size: larger;
-    width: 30px;
-    height: 24px;
+    width: 23px;
+    height: 23px;
 }
+
+.button-fullscreen {
+    margin-right: 5px;
+}
+
 .player-button:focus {
     background-color: rgba(110, 109, 109, 0.4);
 }
@@ -27,6 +40,8 @@
     background: black;
     display: flex;
     flex-direction: row;
+    padding-left: 3px;
+    padding-bottom: 7px;
 }
 .space {
     flex-grow: 1;

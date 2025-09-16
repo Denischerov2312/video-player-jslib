@@ -5,6 +5,7 @@
     padding: 0;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
+    background-color: black;
 }
 
 .video-container {
@@ -13,11 +14,26 @@
 #player {
     width: 727px;
     height: 545px;
-    box-shadow: 0 0 20px rgba(0,0,0,1);
     display: flex;
     flex-direction: column;
 }
 
+.player-buttons {
+    flex-grow: 0;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    padding-left: 3px;
+    padding-bottom: 7px;
+}
+
+.circle {
+    width: 7px;
+    height: 7px;
+    background-color: red;
+    border-radius: 20px;
+    border: 3px solid white;
+}
 
 .player-button {
     cursor: pointer;
@@ -59,15 +75,4 @@
 
 .player-button:focus {
     background-color: rgba(110, 109, 109, 0.4);
-}
-.player-buttons {
-    flex-grow: 0;
-    background: black;
-    display: flex;
-    flex-direction: row;
-    padding-left: 3px;
-    padding-bottom: 7px;
-}
-.space {
-    flex-grow: 1;
 }

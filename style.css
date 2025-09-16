@@ -43,6 +43,12 @@
 }
 
 .progressbar {
+    background-color: grey;
+    width: 100%;
+}
+
+.slider {
+    background-color: red;
 }
 
 .player-button:focus {

@@ -8,6 +8,7 @@
 ![max example](screenshots/max.gif)
 
 Построен на базе библиотеки [Playable](https://wix.github.io/playable/).
+Можете увидеть пример на [github pages](https://denischerov2312.github.io/video-player-jslib/)
 
 ## Примеры
 

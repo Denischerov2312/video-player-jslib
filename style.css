@@ -7,17 +7,7 @@
     font-optical-sizing: auto;
 }
 
-.video-container {
-    flex-grow: 1;
-}
-#player {
-    width: 727px;
-    height: 545px;
-    display: flex;
-    flex-direction: column;
-}
-
-.player-buttons {
+.player-elements {
     flex-grow: 0;
     background: black;
     display: flex;
@@ -26,6 +16,18 @@
     padding-left: 3px;
     padding-bottom: 4px;
 }
+
+.video-container {
+    flex-grow: 1;
+}
+
+#player {
+    width: 727px;
+    height: 545px;
+    display: flex;
+    flex-direction: column;
+}
+
 
 .circle {
     width: 7px;

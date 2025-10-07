@@ -43,7 +43,6 @@
     opacity: 100%;
 }
 
-
 .player-button {
     cursor: pointer;
     color: white;
@@ -52,8 +51,8 @@
     margin-right: 12px;
 
     font-size: larger;
-    width: 23px;
-    height: 23px;
+    width: 35px;
+    height: 35px;
 }
 
 .button-fullscreen {

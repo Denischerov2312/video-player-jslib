@@ -22,8 +22,9 @@
     background: black;
     display: flex;
     flex-direction: row;
+    align-items: center;
     padding-left: 3px;
-    padding-bottom: 7px;
+    padding-bottom: 4px;
 }
 
 .circle {
@@ -61,9 +62,11 @@
 
 .current-time {
     margin-left: -5px;
+    font-size: 15px;
 }
 .duration-time {
     margin-right: 2px;
+    font-size: 15px;
 }
 
 .progressbar {
